@@ -1,0 +1,90 @@
+aid: taranis
+name: Taranis
+review:
+  question: Does Taranis expose a documented public or partner developer API?
+  answer: false
+  date: '2026-06-20'
+  reviewer: API Evangelist
+  asyncapiSpecCreated: false
+  asyncapiScopeNote: |
+    No AsyncAPI document was created. Taranis publishes no documented event,
+    streaming, SSE, or WebSocket surface. There is no realtime or messaging
+    interface to model.
+findings:
+  summary: |
+    Taranis (taranis.com / taranis.ag), the AI crop-intelligence and aerial
+    scouting company, does not publish a documented public or partner
+    developer API. The product is delivered as a closed SaaS platform: a web
+    dashboard (https://dashboard.taranis.ag) and iOS/Android mobile apps. The
+    AcreForward platform, Imagery and Insights, Yield Impact reporting, and the
+    Ag Assistant generative-AI agronomy engine are exposed as end-user product
+    features for advisors, retailers, and growers - not as a programmatic
+    interface. Taranis ingests external machinery and weather data and operates
+    commercial channel/data partnerships (e.g., Syngenta Crop Protection, Ag
+    Partners / Nutrien), implying private internal integrations, but no
+    self-serve API, developer portal, API reference, SDK, or webhook
+    documentation is published. The "Taranis AI" REST API found on Postman and
+    GitHub (taranis.ai / taranis-ai) is an unrelated open-source OSINT tool and
+    is NOT this agricultural company. The OpenAPI artifact in this repo
+    therefore declares an empty paths object with an accurate description.
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: No documented REST API base URL or endpoints for the Taranis ag-tech platform.
+    - protocol: GraphQL
+      scheme: https
+      documented: false
+      note: No GraphQL surface documented.
+    - protocol: WebSocket
+      scheme: wss
+      documented: false
+      note: No realtime or streaming surface documented.
+  productSurfaces:
+    - name: AcreForward Platform
+      access: SaaS web dashboard and mobile apps
+      documented: true
+      api: false
+    - name: Imagery and Insights / Yield Impact
+      access: In-platform reporting
+      documented: true
+      api: false
+    - name: Ag Assistant
+      access: In-platform generative AI agronomy feature
+      documented: true
+      api: false
+    - name: Platform / Data Integrations
+      access: Commercial channel and data partnerships
+      documented: false
+      api: false
+  endpointsConfirmedRest: []
+sources:
+  - url: https://www.taranis.com/
+    type: Website
+    note: Marketing/product site; lists products and dashboard login, no API or developer section.
+  - url: https://go.taranis.com/acreforward/
+    type: Documentation
+    note: AcreForward platform overview; product features only, no API.
+  - url: https://go.taranis.com/ag-assistant/
+    type: Documentation
+    note: Ag Assistant generative AI agronomy engine; in-platform feature, no API.
+  - url: https://go.taranis.com/ag-partners/
+    type: Documentation
+    note: Channel partner program; commercial integrations, no self-serve partner API.
+  - url: https://knowledge.taranis.ag/portal/en/kb
+    type: Documentation
+    note: Knowledge base; no developer, API, integration, or data-export documentation found.
+  - url: https://www.taranis.com/newsroom/ag-assistant/
+    type: Documentation
+    note: Ag Assistant launch (July 2024); ingests machinery/weather data but no public API.
+actions:
+  asyncapiPath: null
+  apisYmlUpdated: true
+  reason: |
+    Catalog records four product surfaces (Crop Intelligence, Imagery and
+    Insights, Ag Assistant, Platform Integrations) as platform features rather
+    than APIs. The OpenAPI document uses paths: {} with a description stating no
+    public API is documented. plans, rate-limits, and finops artifacts are
+    marked reconciled: false with notes that Taranis is a contract-based,
+    per-acre SaaS service, not a metered public API. No endpoints were
+    fabricated.

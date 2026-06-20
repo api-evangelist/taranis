@@ -1,0 +1,26 @@
+openapi: 3.0.1
+info:
+  title: Taranis API
+  description: >-
+    No public or partner developer API is documented for Taranis as of
+    2026-06-20. Taranis is delivered as a closed SaaS crop-intelligence
+    platform accessed through its web dashboard (https://dashboard.taranis.ag)
+    and iOS/Android mobile apps. The AcreForward platform, Imagery and Insights,
+    Ag Assistant generative AI engine, and Yield Impact reporting are exposed as
+    product features to advisors, retailers, and growers - not as a programmatic
+    API. Taranis ingests external machinery and weather data and maintains
+    commercial channel and data partnerships (e.g., Syngenta Crop Protection,
+    Ag Partners / Nutrien), but no self-serve, documented REST/GraphQL/webhook
+    surface is published. This specification intentionally declares an empty
+    paths object; endpoints will be added only if and when Taranis publishes
+    official API reference documentation.
+  termsOfService: https://www.taranis.com/
+  contact:
+    name: Taranis
+    url: https://www.taranis.com/
+  version: '0.0'
+servers:
+  - url: https://www.taranis.com
+    description: Marketing and product site (no documented API base URL).
+paths: {}
+components: {}

@@ -1,0 +1,113 @@
+aid: taranis
+url: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/apis.yml
+name: Taranis
+kind: company
+description: Taranis is an AI-powered crop intelligence company that delivers full-service,
+  leaf-level aerial scouting for agricultural advisors, retailers, and growers. Its
+  AcreForward platform captures submillimeter drone and satellite imagery and applies
+  computer vision and generative AI (Ag Assistant) to detect weeds, pests, disease,
+  nutrient deficiencies, and stand counts, turning insights into measurable yield
+  outcomes. Taranis is delivered as a closed SaaS platform (web dashboard and mobile
+  apps); no public or partner developer API is documented as of this writing.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Agriculture
+- AgTech
+- Crop Intelligence
+- Computer Vision
+- Aerial Scouting
+- Precision Agriculture
+created: '2026-06-20'
+modified: '2026-06-20'
+specificationVersion: '0.19'
+apis:
+- aid: taranis:taranis-crop-intelligence
+  name: Taranis Crop Intelligence
+  tags:
+  - Crop Intelligence
+  - Aerial Scouting
+  - Computer Vision
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.taranis.com/
+  properties:
+  - url: https://www.taranis.com/
+    type: Documentation
+  - url: https://go.taranis.com/acreforward/
+    type: Documentation
+  - url: openapi/taranis-openapi.yml
+    type: OpenAPI
+  description: Leaf-level crop intelligence delivered through the AcreForward platform
+    using submillimeter aerial imagery and computer vision to detect weeds, insect
+    damage, disease pressure, nutrient deficiencies, and stand counts. Delivered as
+    a SaaS product surface, not a documented public API.
+- aid: taranis:taranis-imagery-insights
+  name: Taranis Imagery and Insights
+  tags:
+  - Imagery
+  - Insights
+  - Yield Impact
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://go.taranis.com/acreforward/
+  properties:
+  - url: https://go.taranis.com/acreforward/
+    type: Documentation
+  - url: https://knowledge.taranis.ag/portal/en/kb
+    type: Documentation
+  - url: openapi/taranis-openapi.yml
+    type: OpenAPI
+  description: Field health imagery, agronomic insights, and Yield Impact reporting
+    that convert leaf-level observations into measurable bushel and yield outcomes,
+    surfaced through the Taranis web dashboard and mobile apps. No documented public
+    API exposes these insights programmatically.
+- aid: taranis:taranis-ag-assistant
+  name: Taranis Ag Assistant
+  tags:
+  - Generative AI
+  - Agronomy
+  - Recommendations
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://go.taranis.com/ag-assistant/
+  properties:
+  - url: https://go.taranis.com/ag-assistant/
+    type: Documentation
+  - url: https://www.taranis.com/newsroom/ag-assistant/
+    type: Documentation
+  - url: openapi/taranis-openapi.yml
+    type: OpenAPI
+  description: Generative AI agronomy engine that contextualizes Taranis leaf-level
+    data with weather, machinery, and research data to generate product, nutrient,
+    and input recommendations. Exposed as an in-platform assistant feature, not a
+    documented developer API.
+- aid: taranis:taranis-platform-integrations
+  name: Taranis Platform Integrations
+  tags:
+  - Integrations
+  - Partners
+  - Data
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://go.taranis.com/ag-partners/
+  properties:
+  - url: https://go.taranis.com/ag-partners/
+    type: Documentation
+  - url: openapi/taranis-openapi.yml
+    type: OpenAPI
+  description: Channel and data partnerships (e.g., Syngenta Crop Protection, Ag Partners /
+    Nutrien) and ingestion of machinery and weather data that power AcreForward. These
+    are commercial and operational integrations; no self-serve partner API or developer
+    program is publicly documented.
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/taranis-visual
+- type: Website
+  url: https://www.taranis.com/
+- type: Documentation
+  url: https://knowledge.taranis.ag/portal/en/kb
+- type: Plans
+  url: plans/taranis-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/taranis-rate-limits.yml
+- type: FinOps
+  url: finops/taranis-finops.yml
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

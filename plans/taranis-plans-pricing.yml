@@ -1,0 +1,82 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Taranis
+providerId: taranis
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Agriculture
+- AgTech
+- Crop Intelligence
+- Computer Vision
+- Aerial Scouting
+- Precision Agriculture
+- Plans
+description: >-
+  Taranis is sold as a commercial, contract-based SaaS crop-intelligence
+  service rather than a metered public API. Pricing is delivered through
+  advisor, retailer, and grower subscriptions to the AcreForward platform,
+  typically quoted per acre and bundled with full-service aerial scouting
+  (drone/satellite capture, analysis, and insight delivery). Plans are sold
+  through Taranis sales and channel partners (e.g., Syngenta Crop Protection,
+  Ag Partners / Nutrien); public list pricing is not published.
+notes: >-
+  No public pricing page or self-serve API plan exists. Plan entries below are
+  representative of the commercial / partner sales motion and are not reconciled
+  against published rate cards. Contact Taranis sales for current per-acre and
+  per-program pricing.
+sources:
+- https://www.taranis.com/
+- https://go.taranis.com/acreforward/
+- https://go.taranis.com/ag-partners/
+plans:
+- id: taranis-acreforward
+  name: AcreForward Subscription
+  type: subscription
+  description: >-
+    Full-service, per-acre crop intelligence subscription covering aerial
+    capture, leaf-level analysis, and insight delivery to advisors and growers.
+  entries:
+  - label: AcreForward Per-Acre Service
+    name: acreforward_per_acre
+    type: subscription
+    metric: acres
+    limit: -1
+    timeFrame: year
+    geo: global
+    unit: 1
+    price: contact sales
+    userMultiplied: false
+  elements:
+  - name: Aerial Scouting
+  - name: Crop Intelligence
+  - name: Imagery and Insights
+  - name: Yield Impact Reporting
+  - name: Ag Assistant
+- id: taranis-partner
+  name: Channel and Data Partnership
+  type: enterprise
+  description: >-
+    Commercial agreements with crop protection companies, ag retailers, and
+    co-ops to deliver Taranis services under partner brands and to integrate
+    machinery and weather data sources.
+  entries:
+  - label: Partnership Agreement
+    name: partnership
+    type: flat
+    metric: contract
+    limit: -1
+    timeFrame: year
+    geo: global
+    unit: 1
+    price: contact sales
+    userMultiplied: false
+  elements:
+  - name: Co-Branded Scouting
+  - name: Data Integrations
+  - name: Volume Programs
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

@@ -1,0 +1,9 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Taranis API",
+    "version": "0.0"
+  },
+  "docs": "No public or partner developer API is documented for Taranis (taranis.com / taranis.ag) as of 2026-06-20. Taranis is a closed SaaS crop-intelligence platform accessed through its web dashboard (https://dashboard.taranis.ag) and iOS/Android mobile apps. The AcreForward platform, Imagery and Insights, Ag Assistant, and Yield Impact reporting are product features, not a programmatic API. This collection intentionally contains no requests; endpoints will be added only if Taranis publishes an official API reference. The unrelated 'Taranis AI' OSINT tool (taranis.ai) is a different project and is not represented here.",
+  "items": []
+}

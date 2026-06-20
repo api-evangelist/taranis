@@ -1,0 +1,52 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Taranis
+providerId: taranis
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Agriculture
+- AgTech
+- Crop Intelligence
+- Computer Vision
+- Aerial Scouting
+- Precision Agriculture
+- Rate Limiting
+- Quotas
+- Throttling
+description: >-
+  Taranis does not publish a developer API, so there are no documented HTTP
+  rate limits, throttling thresholds, or quota tiers. Service capacity is
+  governed instead by commercial contracts and operational constraints -
+  contracted acreage, scouting cadence, drone/satellite capture schedules, and
+  turnaround times - rather than per-minute request or token limits. Any
+  programmatic limits would be defined inside private partner integrations.
+notes: >-
+  No public API means no reconcilable rate-limit values. This artifact records
+  that the constraint model is contractual/operational (acreage and scouting
+  cadence) rather than API throttling. Update only if Taranis publishes an
+  official API reference with documented limits.
+sources:
+- https://www.taranis.com/
+- https://go.taranis.com/acreforward/
+- https://knowledge.taranis.ag/portal/en/kb
+responseCodes: {}
+limits:
+- name: Contracted Acreage
+  scope: account
+  metric: acres
+  limit: per contract
+  notes: Service coverage is bounded by the acreage in the customer's subscription, not by API request limits.
+- name: Scouting Cadence
+  scope: account
+  metric: scouting_passes
+  limit: per program schedule
+  notes: Number and timing of aerial capture passes is set by the agronomic program, not a throttle.
+policies:
+- name: Contractual Capacity
+  description: Usage is governed by commercial subscription terms and operational capture schedules rather than API throttling.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
