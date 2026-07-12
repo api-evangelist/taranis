@@ -96,6 +96,8 @@ apis:
     are commercial and operational integrations; no self-serve partner API or developer
     program is publicly documented.
 common:
+- type: DomainSecurity
+  url: security/taranis-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/taranis-visual
 - type: Website
@@ -108,6 +110,8 @@ common:
   url: rate-limits/taranis-rate-limits.yml
 - type: FinOps
   url: finops/taranis-finops.yml
+- url: https://www.taranis.com/feed/
+  type: Blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
