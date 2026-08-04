@@ -1,0 +1,14 @@
+{
+  "provider": "taranis",
+  "sources": [
+    "taranis-openapi.yml"
+  ],
+  "outputs": [],
+  "archived": [
+    "archived taranis-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
