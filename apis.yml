@@ -46,7 +46,7 @@ apis:
     type: Documentation
   - url: https://go.taranis.com/acreforward/
     type: Documentation
-  - url: openapi/taranis-openapi.yml
+  - url: openapi/_original/taranis-openapi.yml
     type: OpenAPI
   description: Leaf-level crop intelligence delivered through the AcreForward platform
     using submillimeter aerial imagery and computer vision to detect weeds, insect
@@ -65,7 +65,7 @@ apis:
     type: Documentation
   - url: https://knowledge.taranis.ag/portal/en/kb
     type: Documentation
-  - url: openapi/taranis-openapi.yml
+  - url: openapi/_original/taranis-openapi.yml
     type: OpenAPI
   description: Field health imagery, agronomic insights, and Yield Impact reporting
     that convert leaf-level observations into measurable bushel and yield outcomes,
@@ -84,7 +84,7 @@ apis:
     type: Documentation
   - url: https://www.taranis.com/newsroom/ag-assistant/
     type: Documentation
-  - url: openapi/taranis-openapi.yml
+  - url: openapi/_original/taranis-openapi.yml
     type: OpenAPI
   description: Generative AI agronomy engine that contextualizes Taranis leaf-level
     data with weather, machinery, and research data to generate product, nutrient,
@@ -101,7 +101,7 @@ apis:
   properties:
   - url: https://go.taranis.com/ag-partners/
     type: Documentation
-  - url: openapi/taranis-openapi.yml
+  - url: openapi/_original/taranis-openapi.yml
     type: OpenAPI
   description: Channel and data partnerships (e.g., Syngenta Crop Protection, Ag Partners /
     Nutrien) and ingestion of machinery and weather data that power AcreForward. These
