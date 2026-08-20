@@ -26,6 +26,13 @@ tags:
 - Agriculture
 - AgTech
 - Crop Intelligence
+- Computer-Vision
+- Aerial Scouting
+- Precision Agriculture
+tags_raw:
+- Agriculture
+- AgTech
+- Crop Intelligence
 - Computer Vision
 - Aerial Scouting
 - Precision Agriculture
@@ -36,6 +43,10 @@ apis:
 - aid: taranis:taranis-crop-intelligence
   name: Taranis Crop Intelligence
   tags:
+  - Crop Intelligence
+  - Aerial Scouting
+  - Computer-Vision
+  tags_raw:
   - Crop Intelligence
   - Aerial Scouting
   - Computer Vision
@@ -93,6 +104,10 @@ apis:
 - aid: taranis:taranis-platform-integrations
   name: Taranis Platform Integrations
   tags:
+  - Integration
+  - Partners
+  - Data
+  tags_raw:
   - Integrations
   - Partners
   - Data
