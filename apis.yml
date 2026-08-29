@@ -9,6 +9,17 @@ description: Taranis is an AI-powered crop intelligence company that delivers fu
   nutrient deficiencies, and stand counts, turning insights into measurable yield
   outcomes. Taranis is delivered as a closed SaaS platform (web dashboard and mobile
   apps); no public or partner developer API is documented as of this writing.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
