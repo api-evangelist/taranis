@@ -37,7 +37,7 @@ tags:
 - Agriculture
 - AgTech
 - Crop Intelligence
-- Computer-Vision
+- Computer Vision
 - Aerial Scouting
 - Precision Agriculture
 tags_raw:
@@ -47,6 +47,7 @@ tags_raw:
 - Computer Vision
 - Aerial Scouting
 - Precision Agriculture
+- Computer-Vision
 created: '2026-06-20'
 modified: '2026-06-20'
 specificationVersion: '0.23'
@@ -56,11 +57,12 @@ apis:
   tags:
   - Crop Intelligence
   - Aerial Scouting
-  - Computer-Vision
+  - Computer Vision
   tags_raw:
   - Crop Intelligence
   - Aerial Scouting
   - Computer Vision
+  - Computer-Vision
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.taranis.com/
   properties:
