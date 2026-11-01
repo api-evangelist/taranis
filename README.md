@@ -1,4 +1,4 @@
-# Taranis (taranis)
+# Taranis
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,113 +66,110 @@
 
 Taranis is an AI-powered crop intelligence company that delivers full-service, leaf-level aerial scouting for agricultural advisors, retailers, and growers. Its AcreForward platform captures submillimeter drone and satellite imagery and applies computer vision and generative AI (Ag Assistant) to detect weeds, pests, disease, nutrient deficiencies, and stand counts, turning insights into measurable yield outcomes. Taranis is delivered as a closed SaaS platform (web dashboard and mobile apps); no public or partner developer API is documented as of this writing.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/apis.yml)
+**Areas:** Agriculture · AgTech · Crop Intelligence · Computer Vision · Aerial Scouting · Precision Agriculture
 
-## Tags
+## Taranis on APIs.io
 
-- Agriculture
-- AgTech
-- Crop Intelligence
-- Computer Vision
-- Aerial Scouting
-- Precision Agriculture
+Everything profiled for Taranis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/taranis/](https://apis.io/providers/taranis/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2026-06-20
-- **Modified:** 2026-06-20
+- [Taranis Crop Intelligence](https://apis.io/apis/taranis/taranis-crop-intelligence/) — Leaf-level crop intelligence delivered through the AcreForward platform using submillimeter aerial imagery and computer vision to detect weeds, insect…
+- [Taranis Imagery and Insights](https://apis.io/apis/taranis/taranis-imagery-insights/) — Field health imagery, agronomic insights, and Yield Impact reporting that convert leaf-level observations into measurable bushel and yield outcomes,…
+- [Taranis Ag Assistant](https://apis.io/apis/taranis/taranis-ag-assistant/) — Generative AI agronomy engine that contextualizes Taranis leaf-level data with weather, machinery, and research data to generate product, nutrient, and…
+- [Taranis Platform Integrations](https://apis.io/apis/taranis/taranis-platform-integrations/) — Channel and data partnerships (e.g., Syngenta Crop Protection, Ag Partners / Nutrien) and ingestion of machinery and weather data that power AcreForward.…
 
-## APIs
+### Published properties
 
-### Taranis Crop Intelligence
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Leaf-level crop intelligence delivered through the AcreForward platform using submillimeter aerial imagery and computer vision to detect weeds, insect damage, disease pressure, nutrient deficiencies, and stand counts. Delivered as a SaaS product surface, not a documented public API.
+#### Collections (1)
 
-- **Human URL:** [https://www.taranis.com/](https://www.taranis.com/)
+Postman and Open Collection request collections.
 
-#### Tags
+- [Taranis API](https://apis.io/collections/taranis/open-taranis/)
 
-- Crop Intelligence
-- Aerial Scouting
-- Computer Vision
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://www.taranis.com/)
-- [Documentation](https://go.taranis.com/acreforward/)
-- [OpenAPI](openapi/taranis-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/taranis.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/taranis.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Taranis Domain Security](https://apis.io/security/taranis/taranis-domain-security/)
 
-### Taranis Imagery and Insights
+#### Plans and pricing (1)
 
-Field health imagery, agronomic insights, and Yield Impact reporting that convert leaf-level observations into measurable bushel and yield outcomes, surfaced through the Taranis web dashboard and mobile apps. No documented public API exposes these insights programmatically.
+Published plans, tiers and prices.
 
-- **Human URL:** [https://go.taranis.com/acreforward/](https://go.taranis.com/acreforward/)
+- [Taranis Plans Pricing](https://apis.io/plans/taranis/taranis-plans-pricing/)
 
-#### Tags
+#### Rate limits (1)
 
-- Imagery
-- Insights
-- Yield Impact
+Published request limits.
 
-#### Properties
+- [Taranis Rate Limits](https://apis.io/rate-limits/taranis/taranis-rate-limits/)
 
-- [Documentation](https://go.taranis.com/acreforward/)
-- [Documentation](https://knowledge.taranis.ag/portal/en/kb)
-- [OpenAPI](openapi/taranis-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/taranis.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/taranis.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### FinOps (1)
 
-### Taranis Ag Assistant
+What the API costs to run, by operation.
 
-Generative AI agronomy engine that contextualizes Taranis leaf-level data with weather, machinery, and research data to generate product, nutrient, and input recommendations. Exposed as an in-platform assistant feature, not a documented developer API.
+- [Taranis Finops](https://apis.io/finops/taranis/taranis-finops/)
 
-- **Human URL:** [https://go.taranis.com/ag-assistant/](https://go.taranis.com/ag-assistant/)
+## Where to find this API
 
-#### Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Generative AI
-- Agronomy
-- Recommendations
-
-#### Properties
-
-- [Documentation](https://go.taranis.com/ag-assistant/)
-- [Documentation](https://www.taranis.com/newsroom/ag-assistant/)
-- [OpenAPI](openapi/taranis-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/taranis.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/taranis.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Taranis Platform Integrations
-
-Channel and data partnerships (e.g., Syngenta Crop Protection, Ag Partners / Nutrien) and ingestion of machinery and weather data that power AcreForward. These are commercial and operational integrations; no self-serve partner API or developer program is publicly documented.
-
-- **Human URL:** [https://go.taranis.com/ag-partners/](https://go.taranis.com/ag-partners/)
-
-#### Tags
-
-- Integrations
-- Partners
-- Data
-
-#### Properties
-
-- [Documentation](https://go.taranis.com/ag-partners/)
-- [OpenAPI](openapi/taranis-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/taranis.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/taranis.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/taranis-visual)
 - [Website](https://www.taranis.com/)
 - [Documentation](https://knowledge.taranis.ag/portal/en/kb)
-- [Plans](plans/taranis-plans-pricing.yml)
-- [Rate Limits](rate-limits/taranis-rate-limits.yml)
-- [Fin Ops](finops/taranis-finops.yml)
+- [Blog](https://www.taranis.com/feed/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 25.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/taranis/](https://apis.io/providers/taranis/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Taranis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/taranis/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
